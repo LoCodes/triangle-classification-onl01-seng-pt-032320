@@ -1,3 +1,22 @@
+# Triangle
+#   knows that equilateral triangles have equal sides
+#   knows that larger equilateral triangles also have equal sides
+#   knows that isosceles triangles have last two sides equal
+#   knows that isosceles triangles have first and last sides equal
+#   knows that isosceles triangles have two first sides equal
+#   knows that isosceles triangles have in fact exactly two sides equal
+#   knows that scalene triangles have no equal sides
+#   knows that scalene triangles have no equal sides at a larger scale too
+#   knows that scalene triangles have no equal sides in descending order either
+#   knows that very small triangles are legal
+#   knows that triangles with no size are illegal
+#   knows that triangles with negative sides are illegal
+#   knows that triangles violating triangle inequality are illegal
+#   knows that triangles violating triangle inequality are illegal 2
+#   knows that triangles violating triangle inequality are illegal 3
+
+
+
 class Triangle
   # write code here
   attr_accessor :side1, :side2 , :side3, :kind
